@@ -5,7 +5,7 @@ from llama_index.embeddings.ollama import OllamaEmbedding
 from llama_index.core import Settings
 
 from constants import LLM_MODEL, LLM_TEMPERATURE, LLM_TIMEOUT, EMBED_MODEL, EMBED_TIMEOUT, MAX_CONCURRENCY, WORKFLOW_TIMEOUT
-from data_ingestion_1 import generate_pdfs
+from data_ingestion import generate_pdfs
 from query_engine import SubQuestionQueryEngine, create_query_engine_tools
 
 # Set up detailed logging
