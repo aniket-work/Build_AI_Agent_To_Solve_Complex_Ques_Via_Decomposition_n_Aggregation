@@ -1,0 +1,9 @@
+llama-index-core
+llama-index-llms-ollama
+llama-index-embeddings-ollama
+llama-index-readers-file
+llama-index-utils-workflow
+llama-index-embeddings-nomic
+fpdf
+httpx
+ollama

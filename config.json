@@ -1,0 +1,16 @@
+{
+  "detailed_reports": {
+    "2015": {
+      "title": "2015 Report: Impact of EVs on Urban Traffic",
+      "content": "In 2015, the adoption of electric vehicles (EVs) in major cities began to pick up pace. Cities like New York and Los Angeles saw a 5% increase in EV registrations. Traffic congestion, however, remained largely unchanged due to the low number of EVs compared to traditional vehicles."
+    },
+    "2016": {
+      "title": "2016 Report: EV Adoption and Traffic Patterns",
+      "content": "The year 2016 witnessed a 10% increase in EV adoption across urban areas. This led to a slight improvement in air quality in cities like San Francisco, but traffic congestion remained a challenge due to the slow rollout of EV-specific infrastructure."
+    },
+    "2017": {
+      "title": "2017 Report: Infrastructure Developments for EVs",
+      "content": "With the growth of EV adoption, 2017 saw significant investments in charging infrastructure. Cities like Seattle reported a 15% reduction in traffic congestion during peak hours as EV usage increased."
+    }
+  }
+}
