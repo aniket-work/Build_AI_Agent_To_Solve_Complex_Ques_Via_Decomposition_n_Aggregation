@@ -1,20 +1,19 @@
-# Build_AI_Agent_To_Solve_Complex_Ques_Via_Decomposition_n_Aggregation
-How To Build AI Agent To Solve Complex Question Using 'Decomposition and Aggregation'
 
-# Let's Build ReAct AI Agent From Scratch
+# How To Build AI Agent To Solve Complex Question Using 'Decomposition and Aggregation'
 
 
 ## Introduction
 
 Full Article : [https://medium.com/@learn-simplified/lets-build-re-act-ai-agent-from-scratch-41263fd6a983
 
-In the ever-evolving world of finance, the ability to quickly interpret data and make informed decisions is a game-changer. Imagine having an AI-powered assistant that can analyze stock prices, calculate financial ratios, and even gauge market sentiment - all in real-time. This article takes you on a journey to build just that: an intelligent financial agent that seamlessly blends AI with finance to deliver insights that matter. Whether you're curious about AI's potential in business or looking to sharpen your financial tools, this guide offers a unique, hands-on approach to making AI work for you.
+Have you ever thought about how AI can handle really tough questions that even experts find challenging? We're about to explore AI agents that can solve complex problems, step by step, like a chef following a detailed recipe. This isn't just another tech discussion - it's a look into how AI is shaping the future of problem-solving, not just by giving answers, but by creating well-thought-out solutions.
 
 ## What's This Project About?
-This article provides a comprehensive overview of building a financial analysis tool powered by AI. It explains the entire process, from setting up a financial agent to fetching and analyzing stock data, calculating financial ratios, and assessing market sentiment. By diving into the code and its functionality, readers will understand how different components work together to create a robust AI-driven solution. Whether you're a developer interested in AI applications or a business professional looking to understand how AI can enhance financial analysis, this article will guide you through the essentials.
+This article is your backstage pass to building an AI agent that's like a Swiss Army knife for complex questions. We're talking about a system that doesn't just stare blankly at tough queries but breaks them down into bite-sized chunks. It's all about the art of 'decomposition and aggregation' - fancy words for splitting big problems into smaller ones and then putting the answers back together.
+We'll walk through creating a SubQuestionQueryEngine that's like a team of mini-experts working together. It takes a big question, like "How have electric vehicles impacted urban traffic from 2015 to 2023?", and turns it into a series of smaller questions. Then, it hunts for answers in a treasure trove of PDF reports, each covering a different year. Finally, it weaves all these answers into one coherent response. It's like watching a jigsaw puzzle solve itself!
 
 ## Why Use This Project?
-Artificial intelligence is transforming industries, and the business sector is no exception. In today's competitive landscape, companies that effectively utilize AI to analyze data have a distinct advantage. This article shows how AI can be implemented within a business setting, specifically focusing on financial analysis. By exploring a fictional company's use of AI, the article demonstrates how to leverage technology for informed decision-making, making it a must-read for anyone interested in the intersection of finance and AI.
+In today's business world, AI isn't just a buzzword - it's becoming as essential as your morning coffee. Companies are drowning in data and complex problems, and they need smart solutions fast. This article shows you how a fictional company (let's call them "EcoCity Planners") could use AI to make sense of years of data on electric vehicles and urban traffic.
 
 ## Architecture
 ![Design Diagram](design_docs/design.png)
@@ -53,11 +52,21 @@ Artificial intelligence is transforming industries, and the business sector is n
      cd path/to/your/project
      pip install -r requirements.txt
      ```
+3. **Install Ollama**
+    
+    Ollama is a powerful tool for running large language models locally on your machine. Let's walk through the installation process step-by-step.
+    
+    Step 1: Download Ollama
+     - Visit the official Ollama website at https://ollama.com/ and click the "Download" button. The website will automatically detect your operating system and offer the appropriate installer
+    
+    Step 2: Install Ollama
+      - For Windows and Mac users: Double-click the downloaded installer file (.exe for Windows, .dmg for Mac) and follow the on-screen instructions
+      - For Linux users: Open a terminal and run the following command:
 
-3. **Run - Re-Act AI Agent**
+4. **Run - AI Agent To Solve Complex Question Using 'Decomposition and Aggregation'**
 
    ```bash 
-   # Run Re-Act Ai Agent for Financial Analysis 
+   # Run AI Agent To Solve Complex Question Using 'Decomposition and Aggregation' 
    set OLLAMA_NUM_PARALLEL=10
    python main.py   
    ```
