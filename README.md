@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Full Article : [https://medium.com/@learn-simplified/lets-build-re-act-ai-agent-from-scratch-41263fd6a983
+Full Article : [https://medium.com/@learn-simplified/how-to-build-ai-agent-to-solve-complex-question-using-decomposition-and-aggregation-7dee6f0373a3
 
 Have you ever thought about how AI can handle really tough questions that even experts find challenging? We're about to explore AI agents that can solve complex problems, step by step, like a chef following a detailed recipe. This isn't just another tech discussion - it's a look into how AI is shaping the future of problem-solving, not just by giving answers, but by creating well-thought-out solutions.
 
